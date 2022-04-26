@@ -1,0 +1,36 @@
+<ImageComposition xsi:noNamespaceSchemaLocation="https://www.skraper.net/ImageComposition.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Information ShortName="Arcade Steam Grid"
+               LongName="Arcade Steam Grid"
+               Description="Wheel + System Wheel + Home Arcade cabinet w/ resources mapping"
+               Author="Joyrider3774" />
+  <Viewport Color="#FF263A4A" Width="920" Height="430" />
+  <Drawings>
+	<!-- Wheel on left -->
+	<Item Type="Wheel">
+	  <Display X="30%" Y="40%" Width="50%" Height="50%" Anchor="VCenterHCenter" />
+	  <Fallback Type="Text" Text="%name%" TextColor="#FFFFFFFF" FontFamilly="Stencil Std" FontStyle="Bold Italic" />
+	</Item>
+	<!-- System Wheel on left -->
+	<Item Type="SystemWheel">
+	  <Display X="30%" Y="70%" Width="30%" Height="30%" Anchor="VCenterHCenter" />
+	</Item>
+	<!-- Horizontal cabinet - Used as new reference for childrens -->
+	<Item Type="LocalFile" LocalFilePath="cabinetsteam.png">
+      <Display X="65%" Y="0%" Width="100!" Height="100%" Anchor="TopLeft" />
+      <Children Reference="Parent">
+        <!-- Let the screenshot draw in another 4:3 Composition and project the result on the cabinet's screen -->
+        <Item Type="Include" LocalFilePath="ScreenShot.include.xml">
+          <Display Mode="Blit" X="143" Y="227" Width="216" Height="170" Transparency="0.0" Anchor="VCenterHCenter" KeepRatio="true" Antialiasing="None" />
+        </Item>
+        <!-- Marquee projection -->
+        <Item Type ="Marquee">
+          <Display Mode="Blit" X="18" Y="20" Width="250" Height="59" Transparency="0.0" Anchor="TopLeft" KeepRatio="false" Antialiasing="None" />
+          <Fallback Type="ScreenMarqueeSmall">
+            <Fallback Type="LocalFile" LocalFilePath="ArcadeMarquee.jpg" />
+          </Fallback>
+        </Item>
+      </Children>
+    </Item>
+	</Drawings>
+</ImageComposition>
+

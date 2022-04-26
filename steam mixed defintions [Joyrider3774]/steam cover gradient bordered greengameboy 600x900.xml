@@ -1,0 +1,13 @@
+<ImageComposition xsi:noNamespaceSchemaLocation="https://www.skraper.net/ImageComposition.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Information ShortName="Steam Cover Bordered Gradient GreenGameboy"
+               LongName="Steam Cover Bordered Gradient GreenGameboy"
+               Description="Steam Cover Bordered Gradient GreenGameboy 600x900"
+               Author="Joyrider3774" />
+  <Viewport Color="#FF263A4A" Width="600" Height="900" />
+  <Drawings>
+	<Item Type="Include" LocalFilePath="steam cover gradient bordered 600x900.xml" >
+      <Display X="0%" Y="0" Height="100%" width="100%" KeepRatio="true" Antialiasing="None" Anchor="TopLeft" Effect="GreenGameboy"/>
+    </Item>	
+  </Drawings>
+</ImageComposition>
+

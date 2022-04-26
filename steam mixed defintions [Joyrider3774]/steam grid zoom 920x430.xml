@@ -1,0 +1,18 @@
+<ImageComposition xsi:noNamespaceSchemaLocation="https://www.skraper.net/ImageComposition.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Information ShortName="Steam Grid Zoom"
+               LongName="Steam Grid Zoom"
+               Description="Steam Grid Zoom 920x430"
+               Author="Joyrider3774" />
+  <Viewport Color="#FF263A4A" Width="920" Height="430"/>
+  <Drawings>
+	<Item Type ="Screenshot" >
+      <Display X="460" Y="215" width="1840" Height="860" KeepRatio="true" Antialiasing="None"  Anchor="VCenterHCenter" />
+    </Item>
+	<!-- Wheel on left -->
+	<Item Type="Wheel">
+	  <Display X="50%" Y="20%" Width="50%" Height="30%" Anchor="VCenterHCenter" />
+	  <Fallback Type="Text" Text="%name%" TextColor="#FFFFFFFF" FontFamilly="Stencil Std" FontStyle="Bold Italic" TextAlign="VCenterHCenter"/>
+	</Item>
+  </Drawings>
+</ImageComposition>
+

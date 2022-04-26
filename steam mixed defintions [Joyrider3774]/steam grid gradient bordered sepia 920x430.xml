@@ -1,0 +1,13 @@
+<ImageComposition xsi:noNamespaceSchemaLocation="https://www.skraper.net/ImageComposition.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Information ShortName="Steam Grid Bordered Gradient Sepia"
+               LongName="Steam Grid Bordered Gradient Sepia"
+               Description="Steam Grid Bordered Gradient Sepia 920x430"
+               Author="Joyrider3774" />
+  <Viewport Color="#FF263A4A" Width="920" Height="430"/>
+  <Drawings>
+	<Item Type="Include" LocalFilePath="steam grid gradient bordered 920x430.xml" >
+      <Display X="0%" Y="0" Height="100%" width="100%" KeepRatio="true" Antialiasing="None" Anchor="TopLeft" Effect="Sepia"/>
+    </Item>	
+  </Drawings>
+</ImageComposition>
+

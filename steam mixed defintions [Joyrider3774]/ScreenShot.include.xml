@@ -1,0 +1,15 @@
+﻿<ImageComposition xsi:noNamespaceSchemaLocation="https://www.skraper.net/ImageComposition.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Information ShortName="Screenshot"
+               LongName="Screenshot Include"
+               Description="Include file - Not intended to be used standalone"
+               Author="MarbleMad &amp; Bkg2k" />
+  <Viewport Color="#FF000000" Width="1280" Height="960" />
+  <Drawings>
+    <!-- Centered screenshot, either horizontal or vertical
+         This is used to produce a perfect centered screenshot in the middle of a black rectangle
+         The resulting image will be projected on the Cabinet screen area -->
+    <Item Type ="Screenshot" >
+      <Display X="50%" Y="50%" Width="100%" Height="100%" KeepRatio="true" Antialiasing="High" Anchor="VCenterHCenter" />
+    </Item>
+  </Drawings>
+</ImageComposition>

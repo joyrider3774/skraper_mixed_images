@@ -1,0 +1,28 @@
+<ImageComposition xsi:noNamespaceSchemaLocation="https://www.skraper.net/ImageComposition.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Information ShortName="Steam Cover Bordered Gradient"
+               LongName="Steam Cover Bordered Gradient"
+               Description="Steam Cover Bordered Gradient 600x900"
+               Author="Joyrider3774" />
+  <Viewport Color="#FF263A4A" Width="600" Height="900" />
+  <Drawings>
+    <Item Type="LocalFile" LocalFilePath="background.png">
+      <Display X="0%" Y="0%" Width="100!" Height="100%" Anchor="TopLeft" />
+      <Children Reference="Parent">
+		<Item Type ="Screenshot" >
+		  <Display X="0%" Y="50%" Height="100!" width="100!" KeepRatio="true" Antialiasing="None" Anchor="TopLeft" />
+		</Item>
+		<Item Type="Wheel">
+		  <Display X="50%" Y="15%" Width="95%" Height="20%" KeepRatio="true" Antialiasing="High" Anchor="VCenterHCenter" />
+		  <Fallback Type="Text" Text="%name%" TextColor="#FFFFFFFF" FontFamilly="Stencil Std" FontStyle="Bold Italic" TextAlign="VCenterHCenter" />
+		</Item>	
+		<Item Type="Box3D">
+		  <Display X="50%" Y="38%" Width="50%" Height="20%" KeepRatio="true" Antialiasing="High" Anchor="VCenterHCenter" />
+		  <Fallback Type="Box2DFront">
+			<Display X="50%" Y="38%" Width="50%" Height="20%" KeepRatio="true" Antialiasing="High" Anchor="VCenterHCenter" />	
+		  </Fallback>
+		</Item>
+	  </Children>
+	</Item>
+  </Drawings>
+</ImageComposition>
+

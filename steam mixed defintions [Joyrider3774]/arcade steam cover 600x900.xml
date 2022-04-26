@@ -1,0 +1,27 @@
+<ImageComposition xsi:noNamespaceSchemaLocation="https://www.skraper.net/ImageComposition.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Information ShortName="Arcade Steam Cover"
+               LongName="Arcade Steam Cover"
+               Description="Home Arcade cabinet w/ resources mapping"
+               Author="Joyrider3774" />
+  <Viewport Color="#00263A4A" Width="600" Height="900" />
+  <Drawings>
+    <!-- Horizontal cabinet - Used as new reference for childrens -->
+    <Item Type="LocalFile" LocalFilePath="cabinetsteam.png">
+      <Display X="0%" Y="0%" Width="100!" Height="100%" Anchor="TopLeft" />
+      <Children Reference="Parent">
+        <!-- Let the screenshot draw in another 4:3 Composition and project the result on the cabinet's screen -->
+        <Item Type="Include" LocalFilePath="ScreenShot.include.xml">
+          <Display Mode="Blit" X="300" Y="475" Width="453" Height="356" Transparency="0.0" Anchor="VCenterHCenter" KeepRatio="true" Antialiasing="None" />
+        </Item>
+        <!-- Marquee projection -->
+        <Item Type ="Marquee">
+          <Display Mode="Blit" X="37" Y="41" Width="524" Height="123" Transparency="0.0" Anchor="TopLeft" KeepRatio="false" Antialiasing="None" />
+          <Fallback Type="ScreenMarqueeSmall">
+            <Fallback Type="LocalFile" LocalFilePath="ArcadeMarquee.jpg" />
+          </Fallback>
+        </Item>
+      </Children>
+    </Item>
+  </Drawings>
+</ImageComposition>
+

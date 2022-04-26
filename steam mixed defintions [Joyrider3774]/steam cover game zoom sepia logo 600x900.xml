@@ -1,0 +1,17 @@
+<ImageComposition xsi:noNamespaceSchemaLocation="https://www.skraper.net/ImageComposition.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Information ShortName="Steam Cover Zoomed Sepia Logo"
+               LongName="Steam Cover Zoomed Sepia Logo"
+               Description="Steam Cover Zoomed Sepia Logo 600x900"
+               Author="Joyrider3774" />
+  <Viewport Color="#FF263A4A" Width="600" Height="900" />
+  <Drawings>
+	<Item Type ="Screenshot" >
+      <Display X="300" Y="450" Width="1200" Height="1800" Antialiasing="None" Transparency="0.0" Anchor="VCenterHCenter" />
+    </Item>
+	<Item Type="Wheel">
+	  <Display X="50%" Y="20%" Width="95%" Height="30%" KeepRatio="true" Antialiasing="High" Anchor="VCenterHCenter" Effect="Sepia"/>
+	  <Fallback Type="Text" Text="%name%" TextColor="#FFFFFFFF" FontFamilly="Stencil Std" FontStyle="Bold Italic" TextAlign="VCenterHCenter" />
+	</Item>	
+  </Drawings>
+</ImageComposition>
+

@@ -1,6 +1,6 @@
 ### %FILE%
 
-| steam_cover_arcade |
+| steam cover arcade |
 |-------|
 |<IMG src="steam_cover_arcade/%FILE%.png" width="150" height="225" />|
 

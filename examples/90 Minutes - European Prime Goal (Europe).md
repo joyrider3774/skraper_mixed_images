@@ -1,6 +1,6 @@
 ### 90 Minutes - European Prime Goal (Europe)
 
-| steam_cover_arcade |
+| steam cover arcade |
 |-------|
 |<IMG src="steam_cover_arcade/90 Minutes - European Prime Goal (Europe).png" width="150" height="225" />|
 

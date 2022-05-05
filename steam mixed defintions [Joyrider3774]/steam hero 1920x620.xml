@@ -1,0 +1,13 @@
+<ImageComposition xsi:noNamespaceSchemaLocation="https://www.skraper.net/ImageComposition.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Information ShortName="Steam Hero"
+               LongName="Steam Hero"
+               Description="Steam Hero 1920x620"
+               Author="Joyrider3774" />
+  <Viewport Color="#FF263A4A" Width="1920" Height="620"/>
+  <Drawings>
+    <Item Type ="Screenshot" >
+      <Display X="960" Y="310" width="1920" Height="3100" KeepRatio="true" Antialiasing="None"  Anchor="VCenterHCenter" />
+    </Item>
+  </Drawings>
+</ImageComposition>
+

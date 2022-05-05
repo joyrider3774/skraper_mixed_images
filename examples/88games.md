@@ -12,7 +12,7 @@
 |-------|-------|-------|-------|
 |<IMG src="steam_cover_border_gradient/88games.png" width="150" height="225" />|<IMG src="steam_cover_border_gradient_grayscale/88games.png" width="150" height="225" />|<IMG src="steam_cover_border_gradient_greengameboy/88games.png" width="150" height="225" />|<IMG src="steam_cover_border_gradient_sepia/88games.png" width="150" height="225" />|
 
-| steam_cover_zoomed | steam_cover_zoomed_grayscale | steam_cover_zoomed_greengameboy | steam_cover_zoomed_sepia |
+| steam cover zoomed | steam cover zoomed grayscale | steam cover zoomed greengameboy | steam cover zoomed sepia |
 |-------|-------|-------|-------|
 |<IMG src="steam_cover_zoomed/88games.png" width="150" height="225" />|<IMG src="steam_cover_zoomed_grayscale/88games.png" width="150" height="225" />|<IMG src="steam_cover_zoomed_greengameboy/88games.png" width="150" height="225" />|<IMG src="steam_cover_zoomed_sepia/88games.png" width="150" height="225" />|
 

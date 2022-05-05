@@ -6,7 +6,7 @@
   <Viewport Color="#FF263A4A" Width="600" Height="900" />
   <Drawings>
 	<Item Type ="Screenshot" >
-      <Display X="300" Y="450" Width="1200" Height="1800" Antialiasing="None" Transparency="0.0" Anchor="VCenterHCenter" />
+      <Display X="300" Y="450" Width="3000" Height="900" Antialiasing="None" Transparency="0.0" Anchor="VCenterHCenter" />
     </Item>
 	<Item Type="Wheel">
 	  <Display X="50%" Y="20%" Width="95%" Height="30%" KeepRatio="true" Antialiasing="High" Anchor="VCenterHCenter" />

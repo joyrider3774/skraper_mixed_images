@@ -12,7 +12,7 @@
 |-------|-------|-------|-------|
 |<IMG src="steam_cover_border_gradient/Wipeout Pure (USA).png" width="150" height="225" />|<IMG src="steam_cover_border_gradient_grayscale/Wipeout Pure (USA).png" width="150" height="225" />|<IMG src="steam_cover_border_gradient_greengameboy/Wipeout Pure (USA).png" width="150" height="225" />|<IMG src="steam_cover_border_gradient_sepia/Wipeout Pure (USA).png" width="150" height="225" />|
 
-| steam_cover_zoomed | steam_cover_zoomed_grayscale | steam_cover_zoomed_greengameboy | steam_cover_zoomed_sepia |
+| steam cover zoomed | steam cover zoomed grayscale | steam cover zoomed greengameboy | steam cover zoomed sepia |
 |-------|-------|-------|-------|
 |<IMG src="steam_cover_zoomed/Wipeout Pure (USA).png" width="150" height="225" />|<IMG src="steam_cover_zoomed_grayscale/Wipeout Pure (USA).png" width="150" height="225" />|<IMG src="steam_cover_zoomed_greengameboy/Wipeout Pure (USA).png" width="150" height="225" />|<IMG src="steam_cover_zoomed_sepia/Wipeout Pure (USA).png" width="150" height="225" />|
 
@@ -39,3 +39,7 @@
 | steam grid zoom sepia logo |
 |-------|
 |<IMG src="steam_grid_zoom_sepia_logo/Wipeout Pure (USA).png" width="225"/>|
+
+| steam Hero |
+|-------|
+|<IMG src="heroes/Wipeout Pure (USA).png" width="600"/>|

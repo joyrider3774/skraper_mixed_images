@@ -39,3 +39,7 @@
 | steam grid zoom sepia logo |
 |-------|
 |<IMG src="steam_grid_zoom_sepia_logo/90 Minutes - European Prime Goal (Europe).png" width="225" />|
+
+| steam Hero |
+|-------|
+|<IMG src="heroes/90 Minutes - European Prime Goal (Europe).png" width="600"/>|

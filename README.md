@@ -6,3 +6,5 @@ A set of mixed images definitions to be used with the [skraper.net](https://www.
 # Examples
 * [90 Minutes - European Prime Goal (Europe)](./examples/90%20Minutes%20-%20European%20Prime%20Goal%20(Europe).md)
 * [Wipeout Pure (USA)](./examples/Wipeout%20Pure%20(USA).md)
+* [1942](./examples/1942.md)
+* [88games](./examples/88games.md)

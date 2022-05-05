@@ -39,3 +39,7 @@
 | steam grid zoom sepia logo |
 |-------|
 |<IMG src="steam_grid_zoom_sepia_logo/%FILE%.png" width="225"/>|
+
+| steam Hero |
+|-------|
+|<IMG src="heroes/%FILE%.png" width="600"/>|

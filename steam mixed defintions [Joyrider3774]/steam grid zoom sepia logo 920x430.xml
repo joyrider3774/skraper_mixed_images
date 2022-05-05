@@ -5,8 +5,8 @@
                Author="Joyrider3774" />
   <Viewport Color="#FF263A4A" Width="920" Height="430"/>
   <Drawings>
-	<Item Type ="Screenshot" >
-      <Display X="460" Y="215" width="1840" Height="860" KeepRatio="true" Antialiasing="None"  Anchor="VCenterHCenter" />
+    <Item Type ="Screenshot" >
+      <Display X="460" Y="215" width="920" Height="2150" KeepRatio="true" Antialiasing="None"  Anchor="VCenterHCenter" />
     </Item>
 	<!-- Wheel on left -->
 	<Item Type="Wheel">
